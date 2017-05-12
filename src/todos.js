@@ -1,9 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-        <title>ToDo's</title>
-        <script>
+// Tests for later use
+// want to outsource scripts here.
+
+<script>
+         <script>
             var a ='';
             var b ='';
             var c ='';
@@ -36,21 +35,4 @@
                 alert ('Not done yet');
             }
         </script>
-    </head>
-    <body>
-        <p>Hallo,</p><br>
-        <p>was wollen Sie tun?</p>
-        <form>
-            <input type="button" onclick="show()" value="Liste anzeigen">
-        </form>
-        <form>
-            <input type="button" onclick="news()" value="ToDo's eintragen">
-        </form>
-        <form>
-            <input type="button" onclick="edit()" value="ToDo's editieren">
-        </form>
-        <form>
-            <input type="button" onclick="delet()" value="ToDo's entfernen">
-        </form>
-    </body>
-</html>
+</script>
