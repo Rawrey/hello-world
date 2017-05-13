@@ -7,10 +7,23 @@
     
         li.appendChild(add);
             if (input === '') {
-                alert('Bitte etwas eingeben.');
+                alert('You need to write something.');
             }
             else {
             document.getElementById('list').appendChild(li);
             }
+        
+            var button = document.createElement('button');
+            var text = document.createTextNode('delete');
+            button.appendChild(text);
+            document.getElementById('list').appendChild(button);
+        
     }
 
+// Delete entrys
+
+        function removeElement(){
+            var all = document.getElementById('list');
+
+            document.getElementById('list').remove(all);
+        }

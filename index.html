@@ -8,13 +8,14 @@
         </script>
     </head>
     <body>
-        <input type="text" id="todoinput">
+        <p class="head">
+        <input type="text" id="todoinput" placeholder="your text...">
         <button id="addtodo" onclick="newElement()">Add ToDo</button>
-
+        <button id="remove" onclick="removeElement()"> Remove ToDo</button>
+        </p>
         <ul id="list">
-            <li>Kaffeeeeee!</li>
-            <li>Liste testen</li>
-            <li>aufregen/freuen</li>
+                <! entrys are made via new entry @ todos.js !>
         </ul>
+        <link rel="stylesheet" href="css/index.css">
     </body>
 </html>
